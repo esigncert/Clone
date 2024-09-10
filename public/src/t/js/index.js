@@ -33,9 +33,10 @@ let typed=new Typed(".GioiThieu", {
 })
 // MUSIC PLAY
 const MusicList=[
-    "//Khơindvn.com/files/Em-Nào-Có-Tội.mp3",
-    "//Khơindvn.com/files/Anh-Đã-Quen-Với-Cô-Đơn.mp3",
-    "//Khơindvn.com/files/Về-Bên-Anh.mp3",
+    "//esigncert.github.io/khoindvn/document/audio1.mp3",
+    "//esigncert.github.io/khoindvn/document/audio1.mp3",
+    "//esigncert.github.io/khoindvn/document/audio1.mp3",
+    "//esigncert.github.io/khoindvn/document/audio1.mp3",
 ];
 let t=parseInt(localStorage.getItem('td')) || Math.floor(Math.random() * MusicList.length);
 const audio=new Audio(MusicList[t]);
