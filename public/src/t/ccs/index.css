@@ -92,10 +92,10 @@ font-family: Concert One;
 
 /*
 ✼ •• ┈┈┈┈๑⋅⋯ ୨˚୧ ⋯⋅๑┈┈┈┈ •• ✼
-        HOME Khơindvn
+        HOME THANHDIEU
 ✼ •• ┈┈┈┈๑⋅⋯ ୨˚୧ ⋯⋅๑┈┈┈┈ •• ✼
 */
-.MangXaHoiFtKhơindvn div {
+.MangXaHoiFtThanhDieu div {
   border: 2px solid white;
   font-family: Righteous;
   border-radius: 5px; 
@@ -113,25 +113,25 @@ font-family: Concert One;
 }
 /* Phân giải trên mobile */
 @media only screen and (max-width: 768px) {
-  .MangXaHoiFtKhơindvn div {
+  .MangXaHoiFtThanhDieu div {
     width: 65%;
   }
 }
 /* Phân giải trên PC */
 @media only screen and (min-width: 769px) {
-  .MangXaHoiFtKhơindvn div {
+  .MangXaHoiFtThanhDieu div {
     width: 30%;
   }
 }
-.MangXaHoiFtKhơindvn:after {
+.MangXaHoiFtThanhDieu:after {
   content: "";
   clear: both;
   display: table;
 }
-.MangXaHoiFtKhơindvn div:not(:last-child) {
+.MangXaHoiFtThanhDieu div:not(:last-child) {
   border-right: none; 
 }
-.MangXaHoiFtKhơindvn div:hover {
+.MangXaHoiFtThanhDieu div:hover {
   transform: translateY(-3px);
   transition: 0.5s;
 }
@@ -352,7 +352,7 @@ hr.ThanhGachNgang {
   background-repeat: no-repeat;
   animation: shimmer 1s infinite;
 }
-.Footer .KhơindvnFtCopyright {
+.Footer .ThanhDieuFtCopyright {
   text-align: center;
   color: #aaa;
   margin-bottom: 0;
@@ -1290,7 +1290,7 @@ background-color: #050303;
 }
 
 
-.NameFtKhơindvn {
+.NameFtThanhDieu {
   color: #FFFFFF;
   padding: 0;
   font-size: 22px;
