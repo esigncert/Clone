@@ -34,9 +34,9 @@ let typed=new Typed(".GioiThieu", {
 // MUSIC PLAY
 const MusicList=[
     "//esigncert.github.io/khoindvn/document/audio1.mp3",
-    "//esigncert.github.io/khoindvn/document/audio1.mp3",
-    "//esigncert.github.io/khoindvn/document/audio1.mp3",
-    "//esigncert.github.io/khoindvn/document/audio1.mp3",
+    "//esigncert.github.io/khoindvn/document/audio2.mp3",
+    "//esigncert.github.io/khoindvn/document/audio3.mp3",
+    "//esigncert.github.io/khoindvn/document/audio4.mp3",
 ];
 let t=parseInt(localStorage.getItem('td')) || Math.floor(Math.random() * MusicList.length);
 const audio=new Audio(MusicList[t]);
